@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "description": "A PowerShell-based typing speed test that challenges you with random words from a customizable text file or classic predefined sentences and featuring adjustable time limits.",
+    "homepage": "https://github.com/klsxgh/TerminalType",
+    "license": "MIT",
+    "url": [
+        "https://raw.githubusercontent.com/klsxgh/TerminalType/refs/heads/main/TerminalType.ps1",
+        "https://raw.githubusercontent.com/klsxgh/TerminalType/refs/heads/main/words.txt"
+    ],
+    "hash": [
+        "CAFF252FFFBBC7A9796E588193B2272B790A5BCFE774C359FBE181D94F53610D",
+        "2CD667318496304DB99E4CD8319A41A63645584C787FB84D13D87B593E28D583"
+    ],
+    "bin": "TerminalType.ps1",
+    "depends": "powershell"
+}
