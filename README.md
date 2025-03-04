@@ -10,3 +10,13 @@ A PowerShell-based typing speed test that challenges you with random words from 
 - Test your typing speed with **Words Per Minute (WPM)** and accuracy stats.
 - Choose between **random words** from `words.txt` or **predefined sentences**.
 - Set custom time limits (15, 30, 60 seconds, or your own choice).
+
+### Testing It Locally
+Let’s make sure it works without Scoop:
+1. **Download the Files**:
+   - Go to your GitHub repo.
+   - Download `TerminalType.ps1` and `words.txt` to `C:\TerminalType\` (or any folder you like).
+2. **Run It**:
+   ```powershell
+   cd C:\TerminalType
+   powershell -ExecutionPolicy Bypass -File .\TerminalType.ps1
